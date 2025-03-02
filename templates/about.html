@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+        }
+
+        .navbar {
+        background-color: #2c3e50;
+      }
+      .navbar-brand, .nav-link {
+        color: #ecf0f1 !important;
+      }
+      .navbar-nav .nav-link:hover {
+        color: #3498db !important;
+      }
+
+        .container {
+            max-width: 900px;
+            margin-top: 40px;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2 {
+            text-align: center;
+            font-size: 32px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 18px;
+            color: #34495e;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .container p span {
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        .container .highlight {
+            background-color: #e8f5e9;
+            padding: 4px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #2c7a3f;
+        }
+
+        .timeline ul {
+            list-style-type: none;
+            padding-left: 0;
+            display: grid;
+            gap: 20px;
+        }
+
+        .timeline li {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .timeline li .icon {
+            background-color: #27ae60;
+            color: #fff;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 20px;
+        }
+
+        .timeline li .text {
+            flex-grow: 1;
+        }
+
+        .timeline li .highlight {
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .navbar-nav {
+                text-align: center;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .container h2 {
+                font-size: 28px;
+            }
+
+            .container p {
+                font-size: 16px;
+            }
+
+            .timeline ul {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Diksha Yadav</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/projects">Project</a>
+              </li>
+            </ul>
+            <form class="d-flex search-bar" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am <span>Diksha Yadav</span>, a dedicated <span class="highlight">Software Developer</span> with expertise in 
+            <span>Python Programming</span>, <span>React.js</span>, <span>React Native</span>, 
+            <span>Firebase</span>, <span>WordPress</span>, and <span>Full-Stack Development</span>. 
+            Currently, I am working as a <span class="highlight">Developer at Website Rishi</span>, where my responsibilities 
+            include creating websites from scratch using WordPress and developing mobile applications 
+            with React Native and Firebase.</p>
+        <p>I have successfully developed <span>two React Native mobile apps</span> tailored to client requirements, utilizing 
+            my skills in React Native, Firebase, and NoSQL databases. Additionally, I have built multiple 
+            projects, including a <span class="highlight">Text Utilities Tool</span>, <span>Multilingual Translator</span>, 
+            and <span>i-Notebook</span>, showcasing my ability to deliver efficient and user-friendly applications.</p>
+        <p>My professional experience also includes building websites with technologies like 
+            <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, and <span>React.js</span>, along with designing 
+            in <span>Figma</span> and optimizing for <span>SEO</span>. I actively solve coding problems on 
+            <span>LeetCode</span> to sharpen my problem-solving skills and stay updated with the latest technologies.</p>
+        <p>With a <span>B.Tech in Computer Science</span>, I am eager to take on challenging roles where I can 
+            contribute to impactful solutions and continue growing as a developer.</p>
+
+        <hr>
+        <h3>Education & Career Timeline</h3>
+        <div class="timeline">
+            <ul>
+
+                <li>
+                    <div class="icon">💼</div>
+                    <div class="text">
+                        <span class="highlight">Current Job</span>: Developer at Website Rishi, creating websites and mobile applications
+                    </div>
+                    <li>
+                      <div class="icon">💼</div>
+                      <div class="text">
+                          <span class="highlight">Internship</span>:Completed a 3-month internship focused on WordPress Development, React Native, and Firebase. Learned to customize WordPress themes, manage plugins, and design responsive websites. Built cross-platform mobile apps with React Native and integrated Firebase for real-time databases and authentication. This experience enhanced my full-stack development and problem-solving skills.
+                      </div>
+                  </li>
+                  <li>
+                    <div class="icon">💼</div>
+                    <div class="text">
+                        <span class="highlight">Internship</span>: Completed a 5-month internship at Genisup India Pvt. Ltd., where I had the opportunity to be mentored by professionals from Microsoft. During this internship, I worked with HTML, CSS, JavaScript, React.js, and WordPress. I focused on developing responsive web pages, creating dynamic user interfaces, and customizing WordPress for virtual folders to manage and create posts efficiently. This experience significantly enhanced my technical skills and problem-solving abilities in web development.
+
+
+                </li>
+                    <li>
+                      <div class="icon">🎓</div>
+                      <div class="text">
+                          <span class="highlight">B.Tech</span>: Computer Science (Specialization in Mechanical Engineering), Dayalbagh Educational Institute, Agra
+                      </div>
+                  </li>
+                    <li>
+                      <div class="icon">📚</div>
+                      <div class="text">
+                          <span class="highlight">12th Grade</span>: 89.8%, Saraswati Vidhya Mandir, Etah
+                      </div>
+                  </li>
+                    <li>
+                      <div class="icon">🎓</div>
+                      <div class="text">
+                          <span class="highlight">10th Grade</span>: 9.8 CGPA, Saraswati Vidhya Mandir, Etah
+                      </div>
+                  </li>
+                  
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
